@@ -5,7 +5,7 @@ Seperate file for each element is uploaded in repository.
 ## Circuit Elements
 Initially nodes must be created to insert elements in between.
 Circuit elements are created as instances of respective class with input as its end nodes and its value (resistance/capacitance/inductance).
-##Generation and Solving Equations
+## Generation and Solving Equations
 Kirchoff's current Law is used to generate list of equations obtained by appending currnet through each branch.
 SolveNodes() is a function which finds unknown node voltages by solving branch currnets by solving equations obtained by KCL.
 SolveNodes() function uses Newton-Raphson method to solve KCL equations.
