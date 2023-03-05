@@ -15,3 +15,4 @@ SolveNodes() is a function which finds unknown node voltages by solving branch c
 SolveNodes() function uses Newton-Raphson method to solve KCL equations.
 
 Finally one can print current through any element or any node voltage in respective circuit.
+![image](https://user-images.githubusercontent.com/106014328/222941525-7950624e-d174-41cb-95fe-210fda033f29.png)
